@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 3px solid #28a745;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover;
+    border: 3px solid #28a745;
+}
+
+.contact-info, .about, .skills, .projects, .work-experience, .extra-section, .certifications {
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.project h3 {
+    color: #28a745;
+}
+
+.project-link {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.education-item, .experience-item {
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 4px solid #28a745;
+    background-color: #f0fff0;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+.social-links a {
+    color: #28a745;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
